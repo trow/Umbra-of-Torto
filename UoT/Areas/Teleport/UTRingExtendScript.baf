@@ -1,0 +1,88 @@
+IF
+  LevelGT(Player1,1)
+  Global("UTGiveRing","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("UTGiveRing","GLOBAL",1)
+    GiveItemCreate("UTRING0",Player1,1,1,0)
+    Continue()
+END
+
+IF
+  NumItemsPartyGT("UTRING0",1)
+THEN
+  RESPONSE #100
+    TakePartyItem("UTRING0")
+    DestroyItem("UTRING0")
+    Continue()
+END
+
+IF
+  NumItemsPartyLT("UTRING0",1)
+  Global("UTGiveRing","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("UTGiveRing","GLOBAL",0)
+    Continue()
+END
+
+IF
+  Global("USEUTRING","GLOBAL",1)
+  !AreaCheck("UT0000")
+  !AreaCheck("TR0000")
+  !AreaCheck("TR0001")
+  !AreaCheck("TR0002")
+  !AreaCheck("TR0003")
+THEN
+  RESPONSE #100
+    SetGlobal("USEUTRING","GLOBAL",0)
+    StorePartyLocations()
+    ClearAllActions()
+    StartCutSceneMode()
+    StartCutScene("UTCutR1")
+    Continue()
+END
+
+IF
+  Global("USEUTRING","GLOBAL",1)
+  AreaCheck("UT0000")
+THEN
+  RESPONSE #100
+    SetGlobal("USEUTRING","GLOBAL",0)
+    DisplayStringHead(Player1,@99995)
+    Continue()
+END
+
+IF
+  Global("USEUTRING","GLOBAL",1)
+  OR(4)
+    AreaCheck("TR0000")
+    AreaCheck("TR0001")
+    AreaCheck("TR0002")
+    AreaCheck("TR0003")
+THEN
+  RESPONSE #100
+    SetGlobal("USEUTRING","GLOBAL",0)
+    Continue()
+END
+
+IF
+  Global("ExitArenaMovie","GLOBAL",1)
+THEN
+  RESPONSE #100
+    ClearAllActions()
+    StartCutSceneMode()
+    CutSceneId(Player1)
+    MoveViewObject(Player1,INSTANT)
+    FadeFromColor([60.0],0)
+    CreateVisualEffectObject("UTTele1",Player1)
+    CreateVisualEffectObject("UTTele1",Player2)
+    CreateVisualEffectObject("UTTele1",Player3)
+    CreateVisualEffectObject("UTTele1",Player4)
+    CreateVisualEffectObject("UTTele1",Player5)
+    CreateVisualEffectObject("UTTele1",Player6)
+    SmallWait(40)
+    SetGlobal("ExitArenaMovie","GLOBAL",0)
+    EndCutSceneMode()
+    Continue()
+END

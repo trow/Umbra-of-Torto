@@ -1,0 +1,199 @@
+BACKUP ~UoT\backup~
+AUTHOR ~inthel~
+
+LANGUAGE ~Chinese(Simplified)~ ~Chinese(Simplified)~ ~UoT\Languages\Chinese(Simplified)\UT_CHS.tra~
+
+BEGIN ~Umbra of T.R.O.W.~
+
+REQUIRE_FILE ~Data\25Dialog.bif~ ~Please ensure you have the Throne of Bhaal expansion installed, this mod can not run without TOB.~
+
+//------------------------------- 拷贝文件 -------------------------------//
+
+COPY ~UoT\Areas\Arena~ ~override~
+COPY ~UoT\Areas\Hinge~ ~override~
+COPY ~UoT\Areas\Observer~ ~override~
+COPY ~UoT\Areas\Pentagram~ ~override~
+COPY ~UoT\Areas\Scourge~ ~override~
+
+COPY ~UoT\Challenges\TrowMobs\creatures~ ~override~
+COPY ~UoT\Challenges\TrowMobs\items~ ~override~
+COPY ~UoT\Challenges\TrowMobs\openings~ ~override~
+COPY ~UoT\Challenges\TrowMobs\scripts~ ~override~
+COPY ~UoT\Challenges\TrowMobs\spells~ ~override~
+COPY ~UoT\Challenges\TrowMobs\visuals~ ~override~
+
+COPY ~UoT\Identifiers~ ~override~
+
+COPY ~UoT\Storages~ ~override~
+
+//------------------------------- 枢纽 -------------------------------//
+
+COPY ~UoT\Areas\Hinge\UTHing01.cre~ ~override~
+	SAY NAME1 @99999
+	SAY NAME2 @99999
+
+COMPILE ~UoT\Languages\Chinese(Simplified)\UTHing01.d~
+
+//------------------------------- 传送戒指 -------------------------------//
+
+COPY ~UoT\Areas\Teleport\UTRING0.eff~ ~override~
+COPY ~UoT\Areas\Teleport\UTCutR1.bcs~ ~override~
+COPY ~UoT\Areas\Teleport\UTTele1.bam~ ~override~
+COPY ~UoT\Areas\Teleport\UTCutR2.bcs~ ~override~
+
+COPY ~UoT\Areas\Teleport\UTRING0.itm~ ~override~
+	SAY NAME1 @99991
+	SAY NAME2 @99992
+	SAY UNIDENTIFIED_DESC @99993
+	SAY DESC @99994
+
+EXTEND_TOP ~baldur.bcs~ ~UoT\Areas\Teleport\UTRingExtendScript.baf~
+EXTEND_TOP ~baldur25.bcs~ ~UoT\Areas\Teleport\UTRingExtendScript.baf~
+
+//------------------------------- 商店 -------------------------------//
+
+COPY ~UoT\Storages\trshop.sto~ ~override~
+	SAY NAME2 @10001
+
+COPY ~UoT\Storages\cchalb.itm~ ~override~
+	SAY NAME1 @10013
+	SAY NAME2 @10014
+	SAY UNIDENTIFIED_DESC @10015
+	SAY DESC @10016
+
+COPY ~UoT\Storages\sodhelm.itm~ ~override~
+	SAY NAME1 @10017
+	SAY NAME2 @10018
+	SAY UNIDENTIFIED_DESC @10019
+	SAY DESC @10020
+
+COPY ~UoT\Storages\wdplat.spl~ ~override~
+COPY ~UoT\Storages\wdplat.itm~ ~override~
+	SAY NAME1 @10021
+	SAY NAME2 @10022
+	SAY UNIDENTIFIED_DESC @10023
+	SAY DESC @10024
+
+COPY ~UoT\Storages\tbplat.itm~ ~override~
+	SAY NAME1 @10025
+	SAY NAME2 @10026
+	SAY UNIDENTIFIED_DESC @10027
+	SAY DESC @10028
+
+COPY ~UoT\Storages\ringap.itm~ ~override~
+	SAY NAME1 @10029
+	SAY NAME2 @10030
+	SAY UNIDENTIFIED_DESC @10031
+	SAY DESC @10032
+
+//------------------------------- TROW生物 -------------------------------//
+
+COPY ~UoT\Challenges\TrowMobs\items\trarm01.itm~ ~override~
+	SAY NAME2 @1008
+	SAY DESC @1009
+COPY ~UoT\Challenges\TrowMobs\items\trbot00.itm~ ~override~
+	SAY NAME2 @1010
+	SAY DESC @1011
+COPY ~UoT\Challenges\TrowMobs\items\trswd01.itm~ ~override~
+	SAY NAME2 @1012
+	SAY DESC @1013
+COPY ~UoT\Challenges\TrowMobs\items\trswd02.itm~ ~override~
+	SAY NAME2 @1014
+	SAY DESC @1015
+COPY ~UoT\Challenges\TrowMobs\items\tramu00.itm~ ~override~
+	SAY NAME2 @1016
+	SAY DESC @1017
+
+COPY ~UoT\Challenges\TrowMobs\spells\trspl28.spl~ ~override/trspl28.spl~
+	SAY NAME1 @3000
+COPY ~UoT\Challenges\TrowMobs\spells\trspl29.spl~ ~override/trspl29.spl~
+	SAY NAME1 @3000
+COPY ~UoT\Challenges\TrowMobs\spells\trspl30.spl~ ~override/trspl30.spl~
+	SAY NAME1 @3000
+COPY ~UoT\Challenges\TrowMobs\spells\trspl31.spl~ ~override/trspl31.spl~
+	SAY NAME1 @3000
+COPY ~UoT\Challenges\TrowMobs\spells\trspl32.spl~ ~override/trspl32.spl~
+	SAY NAME1 @3001
+COPY ~UoT\Challenges\TrowMobs\spells\trspl33.spl~ ~override/trspl33.spl~
+	SAY NAME1 @3001
+COPY ~UoT\Challenges\TrowMobs\spells\trspl34.spl~ ~override/trspl34.spl~
+	SAY NAME1 @3001
+COPY ~UoT\Challenges\TrowMobs\spells\trora04.spl~ ~override/trora04.spl~
+	SAY NAME1 @3002
+
+COPY ~UoT\Challenges\TrowMobs\creatures\trmar01.cre~ ~override/trmar01.cre~
+	SAY NAME1 @2000
+	SAY NAME2 @2000
+COPY ~UoT\Challenges\TrowMobs\creatures\trgla01.cre~ ~override/trgla01.cre~
+	SAY NAME1 @2001
+	SAY NAME2 @2001
+COPY ~UoT\Challenges\TrowMobs\creatures\trgla02.cre~ ~override/trgla02.cre~
+	SAY NAME1 @2001
+	SAY NAME2 @2001
+COPY ~UoT\Challenges\TrowMobs\creatures\trgla03.cre~ ~override/trgla03.cre~
+	SAY NAME1 @2001
+	SAY NAME2 @2001
+COPY ~UoT\Challenges\TrowMobs\creatures\trsuc01.cre~ ~override/trsuc01.cre~
+	SAY NAME1 @2002
+	SAY NAME2 @2002
+COPY ~UoT\Challenges\TrowMobs\creatures\trsuc02.cre~ ~override/trsuc02.cre~
+	SAY NAME1 @2002
+	SAY NAME2 @2002
+COPY ~UoT\Challenges\TrowMobs\creatures\trcae01.cre~ ~override/trcae01.cre~
+	SAY NAME1 @2003
+	SAY NAME2 @2003
+COPY ~UoT\Challenges\TrowMobs\creatures\trcae02.cre~ ~override/trcae02.cre~
+	SAY NAME1 @2003
+	SAY NAME2 @2003
+COPY ~UoT\Challenges\TrowMobs\creatures\trcam01.cre~ ~override/trcam01.cre~
+	SAY NAME1 @2004
+	SAY NAME2 @2004
+COPY ~UoT\Challenges\TrowMobs\creatures\trpit01.cre~ ~override/trpit01.cre~
+	SAY NAME1 @2005
+	SAY NAME2 @2005
+COPY ~UoT\Challenges\TrowMobs\creatures\trcor01.cre~ ~override/trcor01.cre~
+	SAY NAME1 @2006
+	SAY NAME2 @2006
+COPY ~UoT\Challenges\TrowMobs\creatures\trcor02.cre~ ~override/trcor02.cre~
+	SAY NAME1 @2006
+	SAY NAME2 @2006
+COPY ~UoT\Challenges\TrowMobs\creatures\trcor03.cre~ ~override/trcor03.cre~
+	SAY NAME1 @2006
+	SAY NAME2 @2006
+COPY ~UoT\Challenges\TrowMobs\creatures\trcor04.cre~ ~override/trcor04.cre~
+	SAY NAME1 @2006
+	SAY NAME2 @2006
+COPY ~UoT\Challenges\TrowMobs\creatures\trcor05.cre~ ~override/trcor05.cre~
+	SAY NAME1 @2006
+	SAY NAME2 @2006
+COPY ~UoT\Challenges\TrowMobs\creatures\trcor06.cre~ ~override/trcor06.cre~
+	SAY NAME1 @2006
+	SAY NAME2 @2006
+COPY ~UoT\Challenges\TrowMobs\creatures\treri01.cre~ ~override/treri01.cre~
+	SAY NAME1 @2007
+	SAY NAME2 @2007
+COPY ~UoT\Challenges\TrowMobs\creatures\treri02.cre~ ~override/treri02.cre~
+	SAY NAME1 @2007
+	SAY NAME2 @2007
+COPY ~UoT\Challenges\TrowMobs\creatures\trosy01.cre~ ~override/trosy01.cre~
+	SAY NAME1 @2008
+	SAY NAME2 @2008
+COPY ~UoT\Challenges\TrowMobs\creatures\trabi01.cre~ ~override/trabi01.cre~
+	SAY NAME1 @2009
+	SAY NAME2 @2009
+COPY ~UoT\Challenges\TrowMobs\creatures\trsew01.cre~ ~override/trsew01.cre~
+	SAY NAME1 @4000
+	SAY NAME2 @4000
+COPY ~UoT\Challenges\TrowMobs\creatures\trsew02.cre~ ~override/trsew02.cre~
+	SAY NAME1 @4000
+	SAY NAME2 @4000
+COPY ~UoT\Challenges\TrowMobs\creatures\trble01.cre~ ~override/trble01.cre~
+	SAY NAME1 @4001
+	SAY NAME2 @4001
+COPY ~UoT\Challenges\TrowMobs\creatures\trora01.cre~ ~override/trora01.cre~
+	SAY NAME1 @4002
+	SAY NAME2 @4002
+
+//------------------------------- 说明 -------------------------------//
+
+//AT_INTERACTIVE_EXIT ~notepad UoT\Readme.txt~
