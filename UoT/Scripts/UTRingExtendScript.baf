@@ -1,38 +1,6 @@
 IF
-  LevelGT(Player1,1)
-  Global("UTGiveRing","GLOBAL",0)
-THEN
-  RESPONSE #100
-    SetGlobal("UTGiveRing","GLOBAL",1)
-    GiveItemCreate("UTRING0",Player1,1,1,0)
-    Continue()
-END
-
-IF
-  NumItemsPartyGT("UTRING0",1)
-THEN
-  RESPONSE #100
-    TakePartyItem("UTRING0")
-    DestroyItem("UTRING0")
-    Continue()
-END
-
-IF
-  NumItemsPartyLT("UTRING0",1)
-  Global("UTGiveRing","GLOBAL",1)
-THEN
-  RESPONSE #100
-    SetGlobal("UTGiveRing","GLOBAL",0)
-    Continue()
-END
-
-IF
   Global("USEUTRING","GLOBAL",1)
-  !AreaCheck("UT0000")
-  !AreaCheck("TR0000")
-  !AreaCheck("TR0001")
-  !AreaCheck("TR0002")
-  !AreaCheck("TR0003")
+  AreaCheck("AR3000")
 THEN
   RESPONSE #100
     SetGlobal("USEUTRING","GLOBAL",0)
@@ -45,24 +13,11 @@ END
 
 IF
   Global("USEUTRING","GLOBAL",1)
-  AreaCheck("UT0000")
+  !AreaCheck("AR3000")
 THEN
   RESPONSE #100
     SetGlobal("USEUTRING","GLOBAL",0)
     DisplayStringHead(Player1,@99995)
-    Continue()
-END
-
-IF
-  Global("USEUTRING","GLOBAL",1)
-  OR(4)
-    AreaCheck("TR0000")
-    AreaCheck("TR0001")
-    AreaCheck("TR0002")
-    AreaCheck("TR0003")
-THEN
-  RESPONSE #100
-    SetGlobal("USEUTRING","GLOBAL",0)
     Continue()
 END
 

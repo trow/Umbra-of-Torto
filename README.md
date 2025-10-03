@@ -29,9 +29,15 @@ This mod is for _Baldur's Gate II: Enhanced Edition_. While it can theoretically
 
 ## Instructions
 
-Upon entering the game, you will automatically receive a ring. Activating one of its special abilities will advance the storyline.
+Go to Watcher's Keep, pick up the ring at the top-right wooden dock (Hint: use the highlight function), and activate one of its special abilities to advance the storyline.
+
+<img src="https://trow.cc/board/uploads/post-4-1759461412.png" />
 
 It's highly recommended to save your game before attempting any actions.
+
+> [!IMPORTANT]
+>
+> If you have already visited the Watcher's Keep before installing this mod, you must start a new game, otherwise the item will not spawn correctly.
 
 ## Credits
 

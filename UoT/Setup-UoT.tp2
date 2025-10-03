@@ -1,6 +1,6 @@
 BACKUP ~UoT\backup~
 AUTHOR ~The Ring of Wonder~
-VERSION ~2.0.0~
+VERSION ~2.1.0~
 
 LANGUAGE ~Simplified Chinese~ ~SChinese~ ~UoT\Languages\SChinese\Setup.tra~
 
@@ -15,6 +15,7 @@ COPY ~UoT\Areas\Hinge~ ~override~
 COPY ~UoT\Areas\Observer~ ~override~
 COPY ~UoT\Areas\Pentagram~ ~override~
 COPY ~UoT\Areas\Scourge~ ~override~
+COPY ~UoT\Areas\Teleport~ ~override~
 
 COPY ~UoT\Challenges\TrowMobs\creatures~ ~override~
 COPY ~UoT\Challenges\TrowMobs\items~ ~override~
@@ -37,19 +38,52 @@ COMPILE ~UoT\Dialogues\UTHing01.d~ USING ~UoT/Languages/%LANGUAGE%/UTHing01.tra~
 
 //------------------------------- 传送戒指 -------------------------------//
 
-COPY ~UoT\Areas\Teleport\UTRING0.eff~ ~override~
-COPY ~UoT\Areas\Teleport\UTCutR1.bcs~ ~override~
-COPY ~UoT\Areas\Teleport\UTTele1.bam~ ~override~
-COPY ~UoT\Areas\Teleport\UTCutR2.bcs~ ~override~
-
 COPY ~UoT\Areas\Teleport\UTRING0.itm~ ~override~
     SAY NAME1 @99991
     SAY NAME2 @99992
     SAY UNIDENTIFIED_DESC @99993
     SAY DESC @99994
 
-EXTEND_TOP ~baldur.bcs~ ~UoT\Areas\Teleport\UTRingExtendScript.baf~
-EXTEND_TOP ~baldur25.bcs~ ~UoT\Areas\Teleport\UTRingExtendScript.baf~
+EXTEND_TOP ~baldur.bcs~ ~UoT\Scripts\UTRingExtendScript.baf~
+EXTEND_TOP ~baldur25.bcs~ ~UoT\Scripts\UTRingExtendScript.baf~
+
+COPY_EXISTING ~AR3000.ARE~ ~override~
+    LPF fj_are_structure
+        INT_VAR
+        fj_type             = 8
+        fj_loc_x            = 2000
+        fj_loc_y            = 570
+        fj_box_left         = 1996
+        fj_box_top          = 564
+        fj_box_right        = 2006
+        fj_box_bottom       = 576
+        fj_vertex_0         = 1999 + (574 << 16)
+        fj_vertex_1         = 1995 + (567 << 16)
+        fj_vertex_2         = 2001 + (565 << 16)
+        fj_vertex_3         = 2005 + (572 << 16)
+        fj_flags            = 1
+        fj_lock_diff        = 99
+        fj_trap_detect      = 99
+        fj_trap_remove_diff = 99
+        fj_trap_active      = 1
+        fj_trap_status      = 0
+        fj_trap_loc_x       = 2000
+        fj_trap_loc_y       = 570
+        STR_VAR
+        fj_structure_type   = container
+        fj_name             = ~Plank Crack~
+        fj_trap_script      = UTTrap0
+    END
+    LPF fj_are_structure
+        INT_VAR
+        fj_con_itm_idx  = SHORT_AT 0x74 - 1
+        fj_charge0      = 0
+        fj_charge1      = 3
+        fj_flags        = 0
+        STR_VAR
+        fj_structure_type   = itm
+        fj_name             = UTRING0
+    END
 
 //------------------------------- 商店 -------------------------------//
 
@@ -197,4 +231,4 @@ COPY ~UoT\Challenges\TrowMobs\creatures\trora01.cre~ ~override/trora01.cre~
 
 //------------------------------- 说明 -------------------------------//
 
-//AT_INTERACTIVE_EXIT ~notepad UoT\Readme.txt~
+// AT_INTERACTIVE_EXIT ~VIEW UoT\UoT-%LANGUAGE%.pdf~
