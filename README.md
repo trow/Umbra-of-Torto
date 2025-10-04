@@ -79,6 +79,13 @@ It's highly recommended to save your game before attempting any actions.
     </tr>
 </table>
 
+## Disclaimer
+
+We have noticed that unauthorized translated versions of this project exist on the internet. Please be advised that:
+
+* All **non**-Simplified Chinese versions named "Umbra of T.R.O.W." (the former name of this project) are not officially authorized. Their translated content has been tampered with and deviates significantly from the original meaning.
+* We strongly recommend that you always obtain and use this project from its [official repository](https://github.com/trow/Umbra-of-Torto). We will not be held responsible, nor will we provide any technical support for any problems or losses incurred by the dissemination or use of unauthorized unofficial versions.
+
 ## Copyright
 
 This mod is copyright © [The Ring of Wonder](https://trow.cc).

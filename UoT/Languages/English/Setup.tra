@@ -1,0 +1,219 @@
+//------------------------------- Nexus -------------------------------//
+
+@99999 = ~Nexus~
+
+//------------------------------- Teleport -------------------------------//
+
+@99991 = ~Weird Ring~
+@99992 = ~Wonder~
+@99993 = ~For some reason, whenever your casual gaze rests upon this unremarkable ring, its smooth surface seems to shimmer with shifting hues, yet upon careful scrutiny nothing particularly distinctive is revealed.~
+@99994 = ~Ring of Torto: Wonder
+
+All of Torto is shrouded in a thick fog of mystery. No trace of it can be found in the mottled writings etched on ancient slabs, nor its melody in the fragmented verses of long-sung ballads. Even the very origin of Torto's name remains a subject of endless conjecture, with no definitive answer. Amidst the dust accumulated over countless ages, only Wonder persists, carrying faint echoes intimately tied to Torto. It is a lost memory, buried deep within the annals of time, like a slumbering dream awaiting the moment of its awakening.
+
+This ring bears no inscription of powerful enchantments, nor is it suffused with arcane energies. It is so inconceivable that even the prophecies of the gods have failed to glimpse its existence. Thus, Wonder neither bestows upon its wearer boundless might nor promises pristine tranquility. Yet, if wielded properly, even without fully comprehending its true nature, considerable benefit can still be gleaned from it.
+
+STATISTICS:
+
+Equipped abilities:
+Lore: +100
+
+Special abilities:
+Teleport
+True Seeing three times per day~
+
+@99995 = ~The Teleport ability has been anchored, only active on the Watcher's Keep entrance map.~
+
+//------------------------------- Shop -------------------------------//
+
+@10001 = ~Dimensional Shop~
+
+@10013 = ~Halberd full of evil aura~
+@10014 = ~Festering Dead +6~
+@10015 = ~This halberd exudes a malevolent aura.~
+@10016 = ~Halberd +6: Festering Dead
+
+This halberd, full of evil aura, is part of the "Undead Set" crafted by the Master Enchanter known as "Siren".
+
+STATISTICS:
+THAC0: +6
+Damage: 1d10+6
+Damage type: Piercing
+Weight: 15
+Speed Factor: 3
+Proficiency Type: Halberd
+Type: Two-handed
+Requires: 13 Strength
+
+Equipped abilities:
+Save vs. Death: +5
+
+Combat abilities:
+10% chance to drain 3 levels from the target (no save)
+25% chance that the target must save vs. Breath with a -5 penalty, or be inflicted with disease for 30 seconds, losing 1 HP per second
+
+Special abilities:
+Control Undead three times per day~
+
+@10017 = ~Helm full of evil aura~
+@10018 = ~Undead Helm~
+@10019 = ~This helm has an odd design, as if it were a dragon's skull.~
+@10020 = ~Undead Helm: Skull of the Dracolich
+
+Siren, the Master Enchanter, somehow acquired the skull of a dracolich and crafted this helmet from it. It is part of the "Undead Set."
+
+STATISTICS:
+Armor Class: +1
+Weight: 2
+Protects against critical hits
+
+Equipped abilities:
+Cold Resistance: +30%
+Immune to panic, unconscious, confusion, fear, charm, hold, stun, and morale failure
+
+Special abilities:
+Wail of the Banshee once per day~
+
+@10021 = ~Plate full of evil aura~
+@10022 = ~Walking Dead +4~
+@10023 = ~This plate closely resembles a corpse.~
+@10024 = ~Plate +4: Walking Dead
+
+This is part of the "Undead Set" crafted by Siren, the Master Enchanter. Whoever wears this armor appears as a walking cadaver, shrouded in frigid, negative-energy flames.
+
+STATISTICS:
+Armor Class: -1
+Weight: 35
+Requires: 12 Strength
+
+Equipped abilities:
+Immune to level drain
+Magic Resistance: +10%
+The wearer is always surrounded by a shroud of cold "flames," granting 50% Cold Resistance; additionally, any creature touching this armor must save vs. Death or be paralyzed for 15 seconds
+
+Special abilities:
+Death Spell two times per day~
+
+@10025 = ~Softly glowing plate~
+@10026 = ~Torm's Blessing +3~
+@10027 = ~Merely touching this armor fills you with a sense of warmth from deep within your heart.~
+@10028 = ~Full Plate +3: Torm's Blessing
+
+Siren the Master Enchanter, it seems, is not solely adept at crafting malevolent artifacts; this plate serves as a prime example.
+
+STATISTICS:
+Armor Class: -2
+Weight: 50
+Requires: 12 Strength
+
+Equipped abilities:
+Wisdom: +1
+Charisma: +1
+Magic Resistance: +5%
+Saving Throws: +2
+Protection From Evil
+
+Special abilities:
+Holy Word once per day
+Bolt of Glory two times per day
+Righteous Magic three times per day~
+
+@10029 = ~A seemingly ordinary ring~
+@10030 = ~Ring of Apology~
+@10031 = ~The air around this ring seems to constantly surge.~
+@10032 = ~This ring is the creation of Karst, the Hope-Creator. In one of his mad experiments, he caused an explosion of wild magic. His friend, Archlich the lich, was the most pitiful victim. This undead spellcaster found that every time he cast a spell, he would invariably trigger a terrible Wild Surge (it is said that during an arcane duel with the half-genie "tyfon", a Wild Surge transformed him into a squirrel). To appease the lich's wrath, Karst crafted this ring as a gift of apology.
+
+STATISTICS:
+
+Equipped abilities:
+Can memorize six extra 1st-level spells
+Immune to gender change
+Increased chance to gain a favorable result when a Wild Surge occurs (an extra 35 is added to the dice roll, effect equivalent to Improved Chaos Shield, and stacks with it)
+
+Special abilities:
+Nahal's Reckless Dweomer five times per day~
+
+//------------------------------- TROW Mobs -------------------------------//
+
+@2000 = ~Marilith~
+@2001 = ~Glabrezu~
+@2002 = ~Succubus~
+@2003 = ~Elite Cambion~
+@2004 = ~Cambion~
+@2005 = ~Pit fiend~
+@2006 = ~Cornugon~
+@2007 = ~Erinyes~
+@2008 = ~Osyluth~
+@2009 = ~Abishai~
+
+@3000 = ~Summon Tanar'ri~
+@3001 = ~Summon Baatezu~
+@3002 = ~Death Throes~
+
+@4000 = ~Whisper~
+@4001 = ~Godslayer~
+@4002 = ~Soulless~
+
+@1008 = ~Raving Dance~
+@1009 = ~This armor is incredibly light. Its intricately carved patterns are pleasing to the eye.
+
+STATISTICS:
+Armor Class: 1
+
+Equipped abilities:
+Protection From Missiles
+Wearer is permanently under Free Action, and Haste effects remain active
+
+Weight: 40
+Requires: 10 Strength~
+@1010 = ~Wind's Stir~
+@1011 = ~These boots appear ancient and worn, as unassuming as a gentle breeze.
+
+STATISTICS:
+
+Equipped abilities:
+Haste
+When hit by an enemy, the wearer projects an image and becomes invisible, allowing for evasion
+
+Weight: 4~
+@1012 = ~Buzzing Hum~
+@1013 = ~This katana is not only as sharp as a bee's sting, but it also emits a peculiar humming sound when swung, unsettling enemies and causing them to falter before the wielder.
+
+STATISTICS:
+
+Equipped abilities:
+On each attack, enemies within 30 ft. must save vs. Spell with a -4 penalty, or they suffer a -5 penalty to attack rolls, damage, and Armor Class (and cannot use spells or special abilities) for 1 round
+
+THAC0: +5
+Damage: 1d10+5, +1d6 magic damage
+Damage type: Slashing
+Weight: 5
+Speed Factor: 0
+Proficiency Type: Katana
+Type: One-handed
+Requires: 6 Strength~
+@1014 = ~Night's Drape~
+@1015 = ~This katana emits a faint, ethereal blue glow, imparting an otherworldly sensation, as if it instinctively seeks out enemy vulnerabilities and protects the wielder's weaknesses.
+
+STATISTICS:
+
+Equipped abilities:
+1 extra attack per round
++2 to hit
+1/3 chance to block the opponent's next physical damage
+
+THAC0: +5
+Damage: 1d10+5
+Damage type: Slashing
+Weight: 5
+Speed Factor: 0
+Proficiency Type: Katana
+Type: One-handed
+Requires: 6 Strength~
+@1016 = ~Whisper~
+@1017 = ~This necklace is densely carved with numerous inscrutable writings.
+
+STATISTICS:
+
+Special abilities:
+Rebound offensive spells upon the original caster~
