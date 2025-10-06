@@ -1,9 +1,11 @@
 BACKUP ~UoT\backup~
 AUTHOR ~The Ring of Wonder~
-VERSION ~2.2.0~
+VERSION ~2.3.0~
 
 LANGUAGE ~Simplified Chinese~ ~SChinese~ ~UoT\Languages\SChinese\Setup.tra~
 LANGUAGE ~English~ ~English~ ~UoT\Languages\English\Setup.tra~
+LANGUAGE ~Francais~ ~French~ ~UoT\Languages\French\Setup.tra~
+LANGUAGE ~Francais pour BG2EE/EET~ ~FrenchEE~ ~UoT\Languages\FrenchEE\Setup.tra~
 
 BEGIN ~Umbra of Torto~
 
@@ -25,7 +27,8 @@ COPY ~UoT\Challenges\TrowMobs\scripts~ ~override~
 COPY ~UoT\Challenges\TrowMobs\spells~ ~override~
 COPY ~UoT\Challenges\TrowMobs\visuals~ ~override~
 
-COPY ~UoT\Identifiers~ ~override~
+//COPY ~UoT\Identifiers~ ~override~
+INCLUDE ~UoT\Compil\ds.tpa~
 
 COPY ~UoT\Storages~ ~override~
 
