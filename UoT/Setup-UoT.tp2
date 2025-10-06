@@ -14,6 +14,12 @@ REQUIRE_FILE ~Data\25Dialog.bif~ ~Please ensure you have the Throne of Bhaal exp
 //------------------------------- ¿½±´ÎÄ¼þ -------------------------------//
 
 COPY ~UoT\Areas\Arena~ ~override~
+ACTION_IF GAME_IS ~BGT TOB ~ THEN BEGIN
+COPY ~UoT\Tis\oBG2~ ~override~
+END
+ACTION_IF GAME_IS ~BG2EE EET ~ THEN BEGIN
+COPY ~UoT\Tis\BG2EE~ ~override~
+END
 COPY ~UoT\Areas\Hinge~ ~override~
 COPY ~UoT\Areas\Observer~ ~override~
 COPY ~UoT\Areas\Pentagram~ ~override~
@@ -28,7 +34,7 @@ COPY ~UoT\Challenges\TrowMobs\spells~ ~override~
 COPY ~UoT\Challenges\TrowMobs\visuals~ ~override~
 
 //COPY ~UoT\Identifiers~ ~override~
-INCLUDE ~UoT\Compil\ds.tpa~
+INCLUDE ~UoT\Scripts\ds.tpa~
 
 COPY ~UoT\Storages~ ~override~
 
