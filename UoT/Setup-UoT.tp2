@@ -5,7 +5,6 @@ VERSION ~2.3.0~
 LANGUAGE ~Simplified Chinese~ ~SChinese~ ~UoT\Languages\SChinese\Setup.tra~
 LANGUAGE ~English~ ~English~ ~UoT\Languages\English\Setup.tra~
 LANGUAGE ~Francais~ ~French~ ~UoT\Languages\French\Setup.tra~
-LANGUAGE ~Francais pour BG2EE/EET~ ~FrenchEE~ ~UoT\Languages\FrenchEE\Setup.tra~
 
 BEGIN ~Umbra of Torto~
 
@@ -14,12 +13,6 @@ REQUIRE_FILE ~Data\25Dialog.bif~ ~Please ensure you have the Throne of Bhaal exp
 //------------------------------- ¿½±´ÎÄ¼þ -------------------------------//
 
 COPY ~UoT\Areas\Arena~ ~override~
-ACTION_IF GAME_IS ~BGT TOB ~ THEN BEGIN
-COPY ~UoT\Tis\oBG2~ ~override~
-END
-ACTION_IF GAME_IS ~BG2EE EET ~ THEN BEGIN
-COPY ~UoT\Tis\BG2EE~ ~override~
-END
 COPY ~UoT\Areas\Hinge~ ~override~
 COPY ~UoT\Areas\Observer~ ~override~
 COPY ~UoT\Areas\Pentagram~ ~override~
@@ -33,7 +26,6 @@ COPY ~UoT\Challenges\TrowMobs\scripts~ ~override~
 COPY ~UoT\Challenges\TrowMobs\spells~ ~override~
 COPY ~UoT\Challenges\TrowMobs\visuals~ ~override~
 
-//COPY ~UoT\Identifiers~ ~override~
 INCLUDE ~UoT\Scripts\ds.tpa~
 
 COPY ~UoT\Storages~ ~override~
