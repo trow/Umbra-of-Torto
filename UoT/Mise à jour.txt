@@ -1,0 +1,7 @@
+- Mise à jour vers la version la plus aboutie : l'anneau ne se trouve que sur l'entrée de la tour de garde et il ne fonctionne qu'à cet endroit.
+- Révision de la traduction française. Moins pratique mais beaucoup plus fidèle au texte chinois.
+- Révision de la traduction anglaise : finie la traduction Google, c'est maintenant une vraie traduction.
+- Correction de la carte pour qu'elle ne présente plus de lignes horizontales inconvenantes dans BG2EE.
+- Ajout de la rétrocompatibilité qui n'existe plus dans la version "plus aboutie".
+- Correction d'une armure à qui il manquait des effets de renvoi de projectile.
+- Correction d'une armure qui affichait un texte n'ayant rien à voir quand elle lançait son "contrecoup".
