@@ -22,8 +22,4 @@ jobs:
       type: ${{ matrix.type }}
       architecture: amd64
       suffix: version
-      naming: Umbra-of-Torto
-      prefix_windows: Windows
-      prefix_linux: Linux
-      prefix_macos: macOS
-      name_fmt: '<%base_name%><-%os_prefix%><-%extra%><-%version%>'
+      naming: tp2
