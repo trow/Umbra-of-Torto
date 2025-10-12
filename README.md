@@ -2,6 +2,15 @@
 
 Ce mod propose une arène de combat dans laquelle vous pouvez démarrer les combats que vous voulez selon votre demande.
 
+
+<table>
+    <tr>
+        <td><img align="center" src="https://trow.cc/board/uploads/post-4-1209733719.jpg" /></td>
+        <td><img align="center" src="https://trow.cc/board/uploads/post-4-1209733761.jpg" /></td>
+    </tr>
+</table>
+
+
 Allez à l'entrée de la tour de garde et cherchez sur le ponton pour un anneau (attention au piège !).
 
 
