@@ -26,7 +26,7 @@ COPY ~UoT\Challenges\TrowMobs\scripts~ ~override~
 COPY ~UoT\Challenges\TrowMobs\spells~ ~override~
 COPY ~UoT\Challenges\TrowMobs\visuals~ ~override~
 
-COPY ~UoT\Identifiers~ ~override~
+INCLUDE ~UoT\Scripts\ds.tpa~
 
 COPY ~UoT\Storages~ ~override~
 
