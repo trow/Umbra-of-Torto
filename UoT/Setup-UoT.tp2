@@ -233,4 +233,4 @@ COPY ~UoT\Challenges\TrowMobs\creatures\trora01.cre~ ~override/trora01.cre~
 
 //------------------------------- หตร๗ -------------------------------//
 
-// AT_INTERACTIVE_EXIT ~VIEW UoT\UoT-%LANGUAGE%.pdf~
+AT_INTERACTIVE_EXIT ~VIEW UoT/UoT-README.html~
