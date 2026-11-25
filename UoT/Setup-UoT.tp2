@@ -1,6 +1,6 @@
 BACKUP ~UoT\backup~
 AUTHOR ~The Ring of Wonder~
-VERSION ~2.3.0~
+VERSION ~2.3.2~
 
 LANGUAGE ~Simplified Chinese~ ~SChinese~ ~UoT\Languages\SChinese\Setup.tra~
 LANGUAGE ~English~ ~English~ ~UoT\Languages\English\Setup.tra~
@@ -10,7 +10,7 @@ BEGIN ~Umbra of Torto~
 
 REQUIRE_FILE ~Data\25Dialog.bif~ ~Please ensure you have the Throne of Bhaal expansion installed, this mod can not run without TOB.~
 
-//------------------------------- 拷贝文件 -------------------------------//
+//------------------------------- Copy Files -------------------------------//
 
 COPY ~UoT\Areas\Arena~ ~override~
 COPY ~UoT\Areas\Hinge~ ~override~
@@ -30,7 +30,7 @@ INCLUDE ~UoT\Scripts\ds.tpa~
 
 COPY ~UoT\Storages~ ~override~
 
-//------------------------------- 枢纽 -------------------------------//
+//------------------------------- Nexus -------------------------------//
 
 COPY ~UoT\Areas\Hinge\UTHing01.cre~ ~override~
     SAY NAME1 @99999
@@ -38,7 +38,7 @@ COPY ~UoT\Areas\Hinge\UTHing01.cre~ ~override~
 
 COMPILE ~UoT\Dialogues\UTHing01.d~ USING ~UoT/Languages/%LANGUAGE%/UTHing01.tra~
 
-//------------------------------- 传送戒指 -------------------------------//
+//------------------------------- Teleport Ring -------------------------------//
 
 COPY ~UoT\Areas\Teleport\UTRING0.itm~ ~override~
     SAY NAME1 @99991
@@ -87,7 +87,7 @@ COPY_EXISTING ~AR3000.ARE~ ~override~
         fj_name             = UTRING0
     END
 
-//------------------------------- 商店 -------------------------------//
+//------------------------------- Shop -------------------------------//
 
 COPY ~UoT\Storages\trshop.sto~ ~override~
     SAY NAME2 @10001
@@ -123,7 +123,7 @@ COPY ~UoT\Storages\ringap.itm~ ~override~
     SAY UNIDENTIFIED_DESC @10031
     SAY DESC @10032
 
-//------------------------------- TROW生物 -------------------------------//
+//------------------------------- TROW Creatures -------------------------------//
 
 COPY ~UoT\Challenges\TrowMobs\items\trarm01.itm~ ~override~
     SAY NAME2 @1008
@@ -231,6 +231,6 @@ COPY ~UoT\Challenges\TrowMobs\creatures\trora01.cre~ ~override/trora01.cre~
     SAY NAME1 @4002
     SAY NAME2 @4002
 
-//------------------------------- 说明 -------------------------------//
+//------------------------------- README -------------------------------//
 
 AT_INTERACTIVE_EXIT ~VIEW UoT/UoT-README.html~

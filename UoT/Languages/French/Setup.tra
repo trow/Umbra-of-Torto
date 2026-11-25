@@ -9,9 +9,13 @@
 @99993 = ~Chaque fois que votre regard se pose sur cette bague banale, sa surface lisse semble scintiller de reflets changeants, mais en y regardant de plus près, rien de particulier ne se distingue.~
 @99994 = ~Anneau de Torto : Merveille
 
-Tout Torto est enveloppé d'un épais brouillard de mystère. On n'en trouve aucune trace dans les écritures gravées sur d'anciennes dalles, ni aucune mélodie dans les vers fragmentés de ballades chantées depuis longtemps. Même l'origine même du nom Torto reste un sujet de conjectures sans fin, sans réponse définitive. Au milieu de la poussière accumulée au fil des âges, seule Merveille persiste, portant en elle de faibles échos intimement liés à Torto. C'est un souvenir perdu, enfoui profondément dans les annales du temps, comme un rêve endormi attendant le moment de son réveil.
+À l'orée des marais où le Téthyr rejoint l'Amn, sur le ponton de bois vermoulu dressé devant la Tour de Garde, cet anneau simple et dépourvu de tout ornement a été ramassé plus d'une fois, et plus d'une fois il a perdu son porteur.
 
-Cette bague ne porte aucune trace de puissants enchantements, ni n'est imprégnée d'énergies mystérieuses. Elle est si inconcevable que même les prophéties des dieux n'ont pas réussi à entrevoir son existence. Ainsi, Merveille ne confère pas à son porteur une puissance illimitée ni ne promet une tranquillité immaculée. Pourtant, si elle est utilisée correctement, même sans en comprendre pleinement la véritable nature, elle peut encore apporter des avantages considérables.
+Le récit le plus sûr de son histoire subsiste dans le grand livre d'un marchand d'antiquités d'Athkatla. Il y a une quarantaine d'années, ce négociant, nommé Wulven, l'acheta sur la Promenade de Waukyne pour trois pièces d'argent, n'y voyant qu'un modeste ouvrage raté en cuivre noirci, jeté par quelque apprenti. Tout changea un soir où il était assis sous sa lampe, occupé à inventorier une cargaison prétendument exhumée de ruines nétherisses. Du coin de l'œil, il aperçut un miroitement irisé, semblable à de l'huile, onduler sur l'anneau de cuivre à son doigt. Il baissa les yeux pour l'examiner, mais ne trouva qu'une bague d'un noir profond et tout à fait quelconque. Pourtant, lorsqu'il releva le regard vers la caisse, toutes les illusions qui en masquaient le contenu tombèrent aussitôt. Un bâton doré se révéla n'être que du pin brut, et une amulette gravée de runes complexes redevint un simple galet. Seul un clou de fer rouillé, oublié dans un coin, répondit autrement à son regard. Sans avertissement, tout son passé enfoui s'offrit à son esprit : il sut à l'instant même qu'il avait jadis fixé la quille d'un navire de guerre coulé au large de la Côte des Épées, et le nom même du charpentier de marine, disparu depuis longtemps, lui vint spontanément aux lèvres.
+
+Grâce à cet anneau, Wulven démasqua la moitié des fraudes de la guilde, mais plus il s'y fiait, plus son inquiétude grandissait quant à son origine. Il finit par user de relations discrètes et dépensa la moitié des économies de sa vie pour s'attacher les services d'un devin reclus. Pourtant, un simple sort d'Identification ne révéla guère plus qu'un unique mot : « Merveille ». Lorsque le mage recourut alors au coûteux sort de Mythes et légendes, la magie heurta l'anneau comme un mur silencieux ; aucune trace de sa forge ne subsistait dans la Toile, pas plus qu'on n'en trouvait mention dans les annales des dieux. Avant de se dissiper, le sortilège ne parvint à arracher aux failles du temps qu'un nom fragmentaire : « Torto ».
+
+Aucune chronique de Château-Suif n'avait jamais consigné ce nom, et pourtant Wulven en traqua la moindre piste comme possédé. Avec le temps, il remarqua que chaque fois qu'il s'approchait de ruines antiques où la trame de l'espace s'était amincie, l'anneau reprenait cette lueur diffuse et troublante que nul regard ne parvenait à soutenir de face. Des années plus tard, au cœur de l'automne, le vieil homme liquida tous ses biens et suivit la vieille route jusqu'aux terres sauvages du Téthyr. Le dernier témoin à l'avoir aperçu fut un colporteur de passage : Wulven se tenait seul au bout du ponton de bois, face à l'entrée de la Tour de Garde, les yeux baissés vers cette teinte étrange qui ne se dissimulait plus à son doigt. Une fois qu'un épais banc de brume eut passé et se fut dissipé, le ponton était désert. Il ne demeurait que cet anneau d'apparence ordinaire, reposant paisiblement entre les planches humides, dans l'attente du prochain passant qui, par mégarde, le verrait changer de couleur.
 
 PARAMÈTRES :
 
@@ -191,9 +195,9 @@ Quand elle frappe, cette épée affecte tous les ennemis dans les 4,5 mètres de
 
 TAC0 : +5
 Dégâts : 1D10 +5, +1D6 points de dégâts magiques
-Type de Dégâts : Tranchant 
+Type de Dégâts : Tranchant
 Poids : 2
-Facteur de Vitesse : 0 
+Facteur de Vitesse : 0
 Compétence : Katana
 Type d'arme : à 1 main
 Force nécessaire : 6~
@@ -209,9 +213,9 @@ Chance : +2
 
 TAC0 : +5
 Dégâts : 1D10 +5
-Type de Dégâts : Tranchant 
+Type de Dégâts : Tranchant
 Poids : 2
-Facteur de Vitesse : 0 
+Facteur de Vitesse : 0
 Compétence : Katana
 Type d'arme : à 1 main
 Force nécessaire : 6~
