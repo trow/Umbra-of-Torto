@@ -1,6 +1,6 @@
 # Umbra of Torto
 
-<samp>English | [简体中文](README_cn.md)</samp>
+<samp>English | [简体中文](docs/README_cn.md) | [Français](docs/README_fr.md)</samp>
 
 ## Introduction
 
@@ -78,6 +78,14 @@ It's highly recommended to save your game before attempting any actions.
         <td><a href="https://trow.cc/board/showuser=493">moon_cloud</a></td>
     </tr>
 </table>
+
+## Languages
+
+| Language | Translator |
+| --- | --- |
+| English | - |
+| Simplified Chinese | - |
+| French | Deratiseur |
 
 ## Disclaimer
 

@@ -1,6 +1,6 @@
 # 托尔托之影
 
-<samp>[English](README.md) | 简体中文</samp>
+<samp>[English](../README.md) | 简体中文 | [Français](README_fr.md)</samp>
 
 ## 介绍
 
@@ -78,6 +78,14 @@
         <td><a href="https://trow.cc/board/showuser=493">moon_cloud</a></td>
     </tr>
 </table>
+
+## 语言
+
+| 语言 | 翻译者 |
+| --- | --- |
+| English | - |
+| 简体中文 | - |
+| Français | Deratiseur |
 
 ## 免责声明
 
